@@ -42,7 +42,7 @@ function EditTestimonial(props){
     }
 
     return (
-        <div className="card">
+        <div className="card" data-testid="card">
             <h2 className="align-center  font-weight-bold">Edit Testimony</h2><br/><br/>
             <form onSubmit={submitForm}>
                 <div className="form-group">

@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 function NavbarComponent () {
     return (
-        <nav className="navbar navbar-default navbar-fixed-top">
+        <nav className="navbar navbar-default navbar-fixed-top" data-testid="nav">
             <div className="container-fluid">
                 <div className="navbar-header">
                     <button type="button" className="navbar-toggle collapsed" data-toggle="collapse"
